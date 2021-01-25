@@ -2,20 +2,20 @@
 
 ## In this basic app, a user can add, delete, and modify various timers.Each timer corresponds to a different task that the user would like to keep time for.
 
-## Application Screens:
-
 ### React Fundamentals
-#### worked with state and props
-#### Data flow between components
-#### Handling user inputs
-#### Functional components
-#### setInterval and clearInterval to run the timer
-#### array map anf filter properties
-#### KeyboardAvoidingView to focus on textinputs
-#### PropTypes to set props type for each components
-#### Spread operator ...  to construct new array as a composite of existing arrays
++ worked with state and props
++ Data flow between components
++ Handling user inputs
++ Functional components
++ setInterval and clearInterval to run the timer
++ array map anf filter properties
++ KeyboardAvoidingView to focus on textinputs
++ PropTypes to set props type for each components
++ Spread operator ...  to construct new array as a composite of existing arrays.
+
 ---
 
+### Application Screens:
 ### Screen 1.a
 <!-- ### ![Screen1](./external_res/s1.png "The Screen1") -->
 <img src="./external_res/s1.png"  width="300" height="700" alt="The Screen1" >
