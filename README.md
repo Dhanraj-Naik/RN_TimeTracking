@@ -2,6 +2,7 @@
 
 ## In this basic app, a user can add, delete, and modify various timers.Each timer corresponds to a different task that the user would like to keep time for.
 
+---
 ### React Fundamentals
 + worked with state and props
 + Data flow between components
@@ -38,7 +39,7 @@
 #### 6.Add inverse flow
 #### 7.Add server communication (if present)
 
-
+---
 ### Benifits of Functional Components
 #### To create reusable components
 #### No need of state management for component
