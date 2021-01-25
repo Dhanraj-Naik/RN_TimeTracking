@@ -16,7 +16,7 @@ import {
   StatusBar,
   KeyboardAvoidingView
 } from 'react-native';
-// import 'react-native-get-random-values';
+import 'react-native-get-random-values';
 import { v4 as uuid } from 'uuid';
 import EditableTimer from './components/EditableTimer';
 import ToggleableTimerForm from './components/ToggleableTimerForm';
@@ -31,16 +31,14 @@ class App extends React.Component {
       timers: [{
         title: 'Mow the lawn',
         project: 'House Chores',
-        // id: uuid(),
-        id: 22,
+        id: uuid(),
         elapsed: 5456099,
         isRunning: true,
       },
       {
         title: 'Bake squash',
         project: 'Kitchen Chores',
-        // id: uuid(),
-        id: 33,
+        id: uuid(),
         elapsed: 1273998,
         isRunning: false,
       },],
@@ -114,6 +112,7 @@ class App extends React.Component {
   toggleTimer = timerId => {
     this.setState(prevState => {
       const { timers } = this.state;
+      // const { timers } = prevState; //or
 
       return {
         timers: timers.map(timer => {
